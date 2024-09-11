@@ -2,14 +2,11 @@ package vn.edu.usth.usth.weather;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.view.View;
-import android.widget.Button;
-import android.widget.ImageButton;
-
-public class WeatherActivity extends AppCompatActivity {
+public class WeatherActivityy extends AppCompatActivity {
 
     private static final String TAG = "WeatherActivity";
     private boolean isImage1 = true; // Variable to track which image is currently displayed
